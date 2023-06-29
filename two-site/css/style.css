@@ -46,6 +46,10 @@ ul li {list-style: none;}
 img {vertical-align: top;}
 
 /* Стили для верски */
+@font-face {
+    font-family: 'Euclid Circular A';
+    src: url(../fonts/Euclid\ Circular\ A\ Regular.ttf);
+}
 
 body {
     font-family: 'Inter';
@@ -104,7 +108,7 @@ header {
     line-height: 130%;
 }
 
-.logo-section button {
+.button-blue {
     width: 199px;
     height: 52px;
     background: #0962E8;
@@ -117,7 +121,7 @@ header {
     color: white;
 }
 
-.logo-section button:hover {
+.button-blue:hover {
    box-shadow: inset 0px 0px 15px 0px white;
 }
 
@@ -154,19 +158,19 @@ main {
     position: relative;
 }
 
-.block-header-info {
+.block-main-info {
     height: 120px;
     z-index: 2;
     position: relative;
     left: 208px;
     /* top: 580px; */
-    top:-50px;
+    top:-80px;
 
 }
 
-.block-header-info div{
+.block-main-top{
     display: inline-block;
-    width: 241px;
+    width: 250px;
     height: 120px;
     background-color: #FFFFFF;
     border-radius: 20px;
@@ -175,27 +179,125 @@ main {
     font-weight: 500;
     font-size: 16px;
     line-height: 140%;
+    padding: 22px 0px 0px 20px;
     color: #29374E;
 }
 
-/* .block-header-info p {
-    width: 124px;
-    padding-top: 22px;
-    padding-left: 20px;
+.block-main-top p {
+    display: inline-block;
+    width: 149px;
 }
 
 
-.block-header-info img {
-    position: absolute;
+.block-main-top img {
+    height: 25px;
     background-color: #EFF9FF;
-    left: 184px;
-    top: 15px;
 }
 
 .circle-img {
-    display: inline-block;
+    /* display: inline-block; */
+    position: relative;
+    top: -70px;
+    left: 170px;
+    padding: 7px 0px 0px 8px;
     height: 40px;
+    width: 40px;
     border-radius: 50%;
     background-color: rgba(239, 249, 255, 1);
-} */
+}
+
+
+.slogan {
+    width: 550px;
+    font-size: 38px;
+    line-height: 49px;
+    letter-spacing: 3%;
+    text-align: center;
+    font-family: Euclid Circular A;
+    font-weight: 600;
+    margin: 60px 0px 0px 450px;
+}
+
+.slogan span {
+    color:rgba(9, 98, 232, 1);
+}
+
+.platform {
+    width: 1040px;
+    height: 330px;
+    margin: 30px 0px 0px 220px;
+}
+
+.inner-block {
+    display: inline-block;
+    width: 500px;
+    height: 330px;
+    background-color:rgba(233, 246, 255, 1);
+    border-radius: 20px;
+    padding-top: 40px;
+    padding-left: 25px;
+    margin-right: 15px;
+}
+
+.inner-block img {
+    display: inline-block;
+    width: 220px;
+    height: 290px;
+    margin: 8px 0px 0px 45px;
+}
+
+.platform-text-block {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+}
+
+.platform-text-block h2 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.platform-text-block P {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    margin-top: 12px;
+}
+
+.block-2 {
+    width: 1040px;
+    height: 330px;
+    margin: 110px 0px 0px 220px;
+}
+
+.inner-block-2 {
+    display: inline-block;
+    width: 500px;
+    height: 330px;
+    padding-top: 40px;
+    margin-right: 15px;
+}
+
+.represents {
+    width: 460px;
+    font-size: 38px;
+    line-height: 49px;
+    letter-spacing: 3%;
+    text-align: left;
+    font-family: Euclid Circular A;
+    font-weight: 600;
+    /* margin: 60px 0px 0px 450px; */
+}
+
+.represents span{
+    color:rgba(9, 98, 232, 1);
+}
+
+.we-help {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    margin-top: 21px;
+}
 /* MAIN END */

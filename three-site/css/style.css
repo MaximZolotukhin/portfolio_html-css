@@ -1,0 +1,150 @@
+/* Обнуляющие стили */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+ *, *:before, *::after{
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    font-size: 100%;
+    color: black;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+nav, footer, aside {display: block;}
+
+input, button, textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {cursor: pointer}
+button::-moz-focus-inner{
+    padding: 0; border: 0;
+}
+
+:focus, :active {outline: none;}
+
+a, a:visited{text-decoration: none; color: inherit;}
+a:hover{text-decoration: none;}
+ul li {list-style: none;}
+img {vertical-align: top;}
+
+/* Стили для верски */
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap'); */
+@font-face {
+	font-family: 'Noto Sans';
+	font-style: normal;
+	font-weight: 700;
+	src: local('Noto Sans'),
+		/* url('/fonts/CrimsonText-Regular.woff2') format('woff2'),  */
+        url(../fonts/NotoSans-Bold.ttf)
+}
+
+@font-face {
+	font-family: 'Noto Sans';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Noto Sans'),
+		/* url('/fonts/CrimsonText-Regular.woff2') format('woff2'),  */
+        url(../fonts/NotoSans-Regular.ttf)
+}
+
+body {
+    width: 1980px;
+    margin: 0 auto;
+    padding: 0px 30px;
+    font-family: Noto Sans;
+}
+
+
+/* ************************* HEADER ********************************* */
+.cover {
+    width: 1920px;
+    height: 900px;
+    background-image: url(../img/background-header.png);
+    box-sizing: border-box;
+    padding-top: 70px;
+}
+
+.cover__logo {
+    width: 185px;
+    height: 51px;
+    margin: 0px 0px 0px 870px;
+}
+
+.cover__text-prevue{
+    font-style: normal;
+    width: 932px;
+    height: 168px;
+    margin: 140px 494px 0px;
+    color: #FFF;
+}
+
+.cover__text-top {
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 311px;
+}
+
+.cover__header {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: normal;
+    font-variant: all-small-caps;
+}
+
+.cover__text-down {
+    font-size: 42px;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 174px;
+}
+
+.cover__button-group {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    top: 50px;
+    left: 807px;
+}
+
+.cover__text-button {
+    position: absolute;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+    color: #FFF;
+    width: 258px;
+    left: 50px;
+    top: 59px;
+}
+
+.cover__social-media {
+    width: 168px;
+    height: 30px;
+    margin: 300px 877px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cover__social-media img {
+    width: 30px;
+    height: 30px;
+}
+/* ************************* HEADER ********************************* */

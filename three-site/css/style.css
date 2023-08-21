@@ -316,3 +316,141 @@ body {
     font-weight: 400;
     color: #303030;
 }
+
+/*************************  Разделение  *****************************/
+
+.separation-1  {
+    width: 1920px;
+    height: 500px;
+    margin-top: 150px;
+    background: url(../img/separation_1.jpg) no-repeat; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+}
+
+.separation-1 h2 {
+    width: 670px;
+    height: 230px;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: normal;
+    color: #ffffff;
+    flex: 0 0 auto;
+    text-align: center;
+}
+
+/*************************  Секция 2  *****************************/
+
+.block-2 {
+    padding: 0 0 0 360px;
+    display: flex;
+    flex-direction: column;
+}
+
+.block-2 h2{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #868585;
+    text-transform: uppercase;
+}
+
+.block-2__our-clients {
+    height: 765px;
+    width: 1100px;
+    margin-top: 150px;
+}
+
+.block-2__slider-all {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+
+.block-2__slider {
+   width: 510px;
+   height: 410px; 
+}
+
+.block-2__slider-img {
+    width: 510px;
+    height: 370px;
+}
+
+.block-2__slider-nav{
+    margin: 32px 0 0 276px;
+    width: 110px;
+} 
+
+.block-2__slider-nav img{
+    width: 50px;
+}
+
+
+.block-2__address {
+    width: 520px;
+    height: 410px;
+    line-height: normal;
+    color: #303030;
+}
+
+.block-2__address h2{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.block-2__address ul{
+    font-size: 14px;
+    font-weight: 400;
+    padding: 30px 0 0 25px;
+}
+
+.block-2__address li:first-child{
+    padding-top: 0px;
+}
+
+.block-2__address li{
+    padding-top: 15px;
+}
+
+.block-2__button-group {
+    margin-top: 65px;
+}
+
+.block-2__button {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #303030;
+    border-radius: 50%;
+    background: url(../img/right_arrow.png) 45% 50% no-repeat;
+    background-size: 50px;
+}
+
+
+.block-2__text-button {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    top: 50px;
+    left: 807px;
+    color: #303030;
+}
+
+.block-2__text-button {
+    color:#303030;
+}
+
+
+.block-2__text-button {
+    position: absolute;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+    color: #303030;
+    width: 258px;
+    left: 50px;
+    top: 59px;
+}

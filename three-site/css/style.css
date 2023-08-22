@@ -82,9 +82,11 @@ body {
     padding-top: 70px;
 }
 
-.cover__logo {
+.logo {
     width: 185px;
     height: 51px;
+}
+.cover__logo {
     margin: 0px 0px 0px 870px;
 }
 
@@ -508,3 +510,68 @@ body {
 }
 
 /*********************************** футер **************************************/
+footer {
+    padding: 70px 360px 50px 360px;
+    width: 1920px;
+    height: 730px;
+    margin-top: 150px;background-image: 
+    url(../img/background-footer.jpg);
+}
+
+.footer__top-panel{
+    height: 410px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.footer__contact {
+    width: 600px;
+    font-style: normal;
+    line-height: normal;
+    color: #ffffff;
+}
+
+.footer__name-block {
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.footer__contact ul{
+   margin-top: 60px;
+}
+
+.footer__contact li{
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.footer__contact li:first-child{
+    margin-top: 60px;
+}
+
+.footer__down-panel{
+    margin-top: 150px;
+    height: 51px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__confiditial {
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #ffffff;
+}
+
+.footer__social-group {
+    width: 168px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}

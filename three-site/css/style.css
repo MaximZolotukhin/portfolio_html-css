@@ -359,7 +359,7 @@ body {
 }
 
 .block-2__our-clients {
-    height: 765px;
+    height: 510px;
     width: 1100px;
     margin-top: 150px;
 }
@@ -389,7 +389,6 @@ body {
     width: 50px;
 }
 
-
 .block-2__address {
     width: 520px;
     height: 410px;
@@ -418,9 +417,11 @@ body {
 
 .block-2__button-group {
     margin-top: 65px;
+    position: relative;
 }
 
 .block-2__button {
+    display: inline-block;
     width: 100px;
     height: 100px;
     border: 1px solid #303030;
@@ -429,20 +430,17 @@ body {
     background-size: 50px;
 }
 
+.block-2__button:hover {
+   background-color: #A9A32A;
+}
 
 .block-2__text-button {
-    position: relative;
     width: 100px;
     height: 100px;
     top: 50px;
     left: 807px;
     color: #303030;
 }
-
-.block-2__text-button {
-    color:#303030;
-}
-
 
 .block-2__text-button {
     position: absolute;
@@ -454,3 +452,59 @@ body {
     left: 50px;
     top: 59px;
 }
+
+
+.block-2__five-steps {
+    height: 730px;
+    width: 1200px;
+    margin-top: 150px;display: flex;
+    justify-content: space-between;
+}
+
+.block-2__five-steps-text {
+    width: 510px;
+}
+
+.block-2__five-steps-text ul{
+    margin-top: 60px;
+    font-style: normal;
+    line-height: normal;
+    color: #303030;
+}
+
+.block-2__five-steps-text li{
+    margin-top: 30px;
+}
+
+.block-2__five-steps-text li:first-child{
+    margin-top: 0px;
+}
+
+.block-2__ordered-number {
+    font-family: Noto Sans;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.block-2__text-advance{
+    font-family: Noto Sans;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.block-2__five-steps h4{
+    font-family: Noto Sans;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 11px;
+    line-height: 26px;
+}
+
+.block-2__five-steps-img img{
+    margin-left: 90px;
+    width: 600px;
+    height: 730px;
+    color:#868585
+}
+
+/*********************************** футер **************************************/

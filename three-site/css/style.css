@@ -417,12 +417,12 @@ body {
     padding-top: 15px;
 }
 
-.block-2__button-group {
+.block-2__button-group, .footer-form__button-group {
     margin-top: 65px;
     position: relative;
 }
 
-.block-2__button {
+.block-2__button, .footer-form__button {
     display: inline-block;
     width: 100px;
     height: 100px;
@@ -432,11 +432,11 @@ body {
     background-size: 50px;
 }
 
-.block-2__button:hover {
+.block-2__button:hover, .footer-form__button:hover{
    background-color: #A9A32A;
 }
 
-.block-2__text-button {
+.block-2__text-button, .footer-form__text-button {
     width: 100px;
     height: 100px;
     top: 50px;
@@ -444,12 +444,11 @@ body {
     color: #303030;
 }
 
-.block-2__text-button {
+.block-2__text-button, .footer-form__text-button {
     position: absolute;
     font-size: 18px;
     font-weight: 400;
     line-height: normal;
-    color: #303030;
     width: 258px;
     left: 50px;
     top: 59px;
@@ -584,4 +583,47 @@ form p{
     height: 30px;
     display: flex;
     justify-content: space-between;
+}
+
+.footer-form label {
+    line-height: 1px;
+}
+
+.footer__input-block {
+    width: 510px;
+    height: 25px;
+    margin-top: 60px;
+    border-bottom: 1px solid #fff;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+/* .footer__input-block input{
+    opacity: 0; 
+} */
+
+.footer-form input[type="text"], input[type="tel"] {
+    background: transparent;
+    color: #FFF;
+    margin-left: 20px
+}
+
+.footer-form input[type="submit"] {
+    width: 100px;
+    height: 100px;
+    margin-top: 60px;
+    background: transparent; /*Делает фон прозрачный*/
+    color: #FFF;
+}
+
+.footer-form__button {
+    border: 1px solid #fff;
+    background: url(../img/right_arrow_wihte.png) 45% 50% no-repeat;
+    background-size: 50px;
+}
+
+.footer-form__text-button {
+    color: #FFF;
 }

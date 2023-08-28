@@ -208,11 +208,18 @@
                 <div class="footer__top-panel">
                     <form action="" class="footer-form">
                         <p>оставить заявку</p>
-                        <label for="logn">Имя</label>
-                        <input type="text" id="logn" name="login">
-                        <label for="phone">Телефон</label>
-                        <input type="phone" id="phone" name="phone">
-                        <input type="submit">
+                        <div class="footer__input-block">
+                            <label for="logn">Имя</label>
+                            <input type="text" id="logn" name="login">
+                        </div>
+                        <div class="footer__input-block">
+                            <label for="phone">Телефон</label>
+                            <input type="tel" id="phone" name="phone" pattern="2[0-9]{3}-[0-9]{3}">
+                        </div>
+                        <div class="footer-form__button-group">
+                            <button type="submit" class="footer-form__button"></button>
+                            <span class="footer-form__text-button">оставить заявку</span>
+                        </div>
                     </form>
                     <article class="footer__contact contact">
                         <div class="footer__name-block">контакты</div>

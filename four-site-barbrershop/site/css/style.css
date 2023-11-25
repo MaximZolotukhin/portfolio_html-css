@@ -1,0 +1,74 @@
+/* Обнуляющие стили */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+ *, *:before, *::after{
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    font-size: 100%;
+    color: black;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+nav, footer, aside {display: block;}
+
+input, button, textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {cursor: pointer}
+button::-moz-focus-inner{
+    padding: 0; border: 0;
+}
+
+:focus, :active {outline: none;}
+
+a, a:visited{text-decoration: none; color: inherit;}
+a:hover{text-decoration: none;}
+ul li {list-style: none;}
+img {vertical-align: top;}
+
+
+/* ВЕРСТКА */
+
+:root { /*Задает переменные с базовыми цветами для тэга html*/
+    --basic-black: #000000;
+    --basic-extra-datr: #242424;
+    --basic-dark: #aba9a7;
+    --basic-neutral: #e5e5e5;
+    --basic-extra-light: #f8f5f2;
+    --basic-white: #ffffff;
+
+    --special: #663d15;
+}
+
+body {
+    min-width: 960px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    color: var(--basic-black);
+    text-transform: uppercase;
+    background-color: var(--basic-black);
+    background-image: url('../img/background.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+}

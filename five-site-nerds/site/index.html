@@ -1,27 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nerds</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <div>
-            <a href="#"><img src="img/logo-index.svg" alt="Логотип"></a>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="studio.html">Студия</a></li>
-                <li><a href="client.html">Клиенты</a></li>
-                <li><a href="shop.html">Магазин</a></li>
-                <li><a href="contact.html">Контакты</a></li> 
-            </ul>
-            <div>
-                <img src="img/cart-icon.svg" alt="Корзина">
-                <a href="basket.html">Корзина</a>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__logo">
+                <a href="#"><img src="img/logo-index.svg" alt="Логотип"></a>
             </div>
-        </nav>
+            <nav class='header__nav'>
+                <ul>
+                    <li><a href="studio.html">Студия</a></li>
+                    <li><a href="client.html">Клиенты</a></li>
+                    <li><a href="shop.html">Магазин</a></li>
+                    <li><a href="contact.html">Контакты</a></li> 
+                    <li>
+                        <img src="img/cart-icon.svg" alt="Корзина">
+                        <a href="basket.html">Корзина</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
         <main>
             <section>
                 <h2>Долго, дорого, скрупулезно.</h2>
@@ -31,10 +34,11 @@
             <section>
                 <h2>Слайдер</h2>
                 <img src="img/slider/nerds-index-slide1-1.png" alt="">
+                 <!-- Добавить кнопки пагинации -->
             </section>
 
             <section>
-                <h2>Предложнеия</h2>
+                <h2>Предложкения</h2>
                 <article>
                     <h2>Вебсайты</h2>
                     <img src="img/illustration-1-1.svg" alt="Кмпьютеры">
@@ -119,6 +123,6 @@
                 <p>Скидка 10% для друзей из социальных сетей.</p>
             </div> 
         </footer>
-    </header>
+    </div>
 </body>
 </html>

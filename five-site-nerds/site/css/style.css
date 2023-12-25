@@ -1,4 +1,4 @@
-/* Обнуляющие стили */
+Обнуляющие стили
 *{
     margin: 0;
     padding: 0;
@@ -74,12 +74,20 @@ img {vertical-align: top;}
 
 body {
     font-family: 'Roboto', sans-serif;
-    width: 1440px;
-    margin: 0 auto;
+    background-color: #fff;
+    color: #000;
+    font-size: 16px;
+    margin: 0px auto;
+    width: 1400px;
 }
 
+.wrapper {
+    /*  */
+    /* margin: 0px auto; */
+}
+
+/* Header */
 .header {
-    color: #000;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -94,7 +102,7 @@ body {
     float: left;
     width: 160px;
     height: 65px;
-    margin: 49px 202px 10px 140px;
+    margin: 49px 170px 10px 140px;
 }
 
 .header__logo img {
@@ -105,12 +113,12 @@ body {
 .header__nav {
     display: inline-block;
     width: 860px;
-    /* margin-top: 76px; */
+    margin-top: 76px;
 }
 
 .header__nav ul {
-    margin-top: 76px;
-}
+    margin-left: 0px;
+} 
 
 .header__nav li {
     display: inline-block;
@@ -119,10 +127,132 @@ body {
 
 .header__nav li:last-child {
     margin-right: 0px;
-    margin-left: 225px;
+    margin-left: 205px;
 }
 
-.header__nav li:last-child img {
+.header__nav img {
     margin: 5px 25px 0px 0px;
     width: 15px;
+}
+
+/* Main */
+
+.main__head {
+    background-color: rgba(238, 238, 238, 1);
+}
+
+.main__tagline {
+    margin: 0px 0px 0px 140px;
+    padding: 30px 0px 0px 0px;
+    display: inline-block;
+    float: left;
+}
+
+.main__tagline h2 {
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 55px;
+    margin-bottom: 0px;
+}
+
+.main__tagline p {
+    margin-top: 25px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+
+.main__tagline a {
+    display: inline-block;
+    width: 240px;
+    height: 50px;  
+    border-radius: 3px;
+    background: #FB565A;
+    margin-top: 25px;
+
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px; /* 112.5% */
+    padding-top: 17px;
+    text-transform: uppercase;
+}
+
+.main__slider {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.main__slider h2 {
+    display: none;
+}
+
+.main__slider img {
+    width: 760px;
+}
+
+/* main__company-offers */
+
+.main__company-offers {
+    display: flex;
+    width: 1100px;
+    justify-content: space-between;
+    margin-top: 80px;
+    margin-left: 140px;
+}
+
+.main__company-offers h2 {
+    display: none;
+}
+
+.main__company-offers article {
+    width: 300px;
+}
+
+.main__company-offers h3 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px; /* 125% */
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+
+.main__company-offers p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    min-width: 260px;
+}
+
+.main__company-offers a {
+    width: 160px;
+    height: 50px;
+    border-radius: 3px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 32px;
+    padding-top: 17px;
+    color: #FFF;
+
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px; /* 112.5% */
+    text-transform: uppercase;
+}
+
+.company-offers__buttom-1 {
+    background: rgba(251, 86, 90, 1);
+}
+
+.company-offers__buttom-2 {
+    background: rgba(0, 202, 116, 1);
+}
+
+.company-offers__buttom-3 {
+    background: rgba(239, 200, 73, 1);
 }

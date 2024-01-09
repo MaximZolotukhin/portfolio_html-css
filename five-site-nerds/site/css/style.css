@@ -1,5 +1,5 @@
 Обнуляющие стили
-*{
+* {
     margin: 0;
     padding: 0;
     border: 0;
@@ -12,6 +12,9 @@
 }
 
 html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
     width: 100%;
     height: 100%;
     font-size: 100%;
@@ -42,7 +45,12 @@ button::-moz-focus-inner{
 
 a, a:visited{text-decoration: none; color: inherit;}
 a:hover{text-decoration: none;}
-ul li {list-style: none;}
+ul {
+    padding: 0px;
+}
+ul li {
+    list-style: none;
+}
 img {vertical-align: top;}
 
 /* header */
@@ -199,9 +207,11 @@ body {
 .main__company-offers {
     display: flex;
     width: 1100px;
+    height: 450px;
     justify-content: space-between;
     margin-top: 80px;
     margin-left: 140px;
+    border-bottom: rgba(238, 238, 238, 1) solid 2px;
 }
 
 .main__company-offers h2 {
@@ -256,3 +266,260 @@ body {
 .company-offers__buttom-3 {
     background: rgba(239, 200, 73, 1);
 }
+
+/* protfolio */
+.main__protfolio {
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    height: 550px;
+    margin-left: 140px;
+    padding-top: 40px;
+    border-bottom: rgba(238, 238, 238, 1) solid 2px;
+}
+
+.main__protfolio h2{
+    display: none;
+}
+
+.protfolio__left-side {
+    margin-top: 30px;
+    display: inline-block;
+    width: 650px;
+}
+
+.protfolio__left-side h3 {
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 45px; /* 100% */
+}
+
+.protfolio__left-side p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+
+.protfolio__left-side h4 {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+    text-transform: uppercase;
+}
+
+.protfolio__left-side ul {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    /* margin-left: -40px; */
+}
+
+.protfolio__left-side li {
+   background-image: url(../img/background-line-menu.svg);
+   background-repeat: no-repeat;
+   background-position: 0 50%;
+   padding-left: 35px;
+   padding-top: 10px;
+   height: 40px;
+}
+
+
+.protfolio__right-side h2 {
+    display: none;
+}
+
+.protfolio__right-side h3 {
+    margin-top: 35px;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.percentages {
+    display: flex;
+    justify-content: space-around;
+}
+
+.percentages p{
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.percentages sup{
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.percentages span {
+    display: block;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    width: 100px;
+    margin-top: 10px;
+    line-height: 1.2em;
+}
+
+/* Наши работы */
+.us_work {
+    height: 180px;
+    width: 1100px;
+    margin-left: 140px;
+    padding: 36px 0px 66px 0px;
+    border-bottom: rgba(238, 238, 238, 1) solid 2px;
+}
+
+.us_work h2{
+    display: none;
+}
+
+.us_work ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.us_work li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 256px;
+    height: 90px;
+}
+
+.us_work li:not(:last-child) {
+    position: relative;
+  }
+  
+  .us_work li:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    width: 2px;
+    height: 52px;
+    background-color: rgba(238, 238, 238, 1);
+  }
+  
+  .us_work li:last-child {
+    margin-right: 0;
+    padding-right: 0;
+  }
+
+.map {
+    margin-top: 80px;
+    background-image: url(../img/map/map1.svg);
+    width: 1440px;
+    height: 416px;
+    position: relative;
+}
+
+.map h2 {
+   display: none;
+}
+
+.map__us-address {
+    width: 319px;
+    height: 308px;
+    background-color: #FFF;
+    position: absolute;
+    top: 48px;
+    left: 140px;
+    padding: 50px 0px 0px 50px;
+}
+
+.map__us-address h2 {
+    display: block;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 166.667% */
+    text-transform: uppercase;
+}
+
+.map__contact-info{
+    color: #666;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 112.5% */
+}
+
+.map-marker {
+    position: absolute;
+    top: 86px;
+    left: 822px;
+}
+
+.map__us-address button {
+    margin-top: 27px;
+    width: 219px;
+    height: 50px;
+    border-radius: 3px;
+    border-color: #FB565A;
+    background-color: #FB565A;
+    color: #FFF;
+
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px; /* 112.5% */
+    text-transform: uppercase;
+}
+
+
+/* FOOTER */
+footer {
+    height: 217px;
+    padding: 68px 0px 0px 140px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social {
+    width: 270px;
+}
+
+.social h2 {
+    display: none;
+}
+
+.social ul {
+    display: flex;
+    width: 265px;
+    justify-content: space-between;
+}
+
+.social ul img {
+    width: 81px;
+}
+
+.freind {
+    padding-right: 300px;
+}
+
+.freind h2 {
+    color: #000;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; /* 100% */
+}
+
+.freind p {
+    color: #444;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 137.5% */
+}
+

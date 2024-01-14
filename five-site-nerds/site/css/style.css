@@ -523,3 +523,23 @@ footer {
     line-height: 22px; /* 137.5% */
 }
 
+/* Страница 2 */
+
+.name-page {
+    box-sizing: border-box;
+    max-width: 1400px;
+    background-color: rgba(238, 238, 238, 1);
+    height: 250px;
+    margin-top: -18px;
+}
+
+.name-page__text {
+    display: inline-block;
+    margin-top: 80px;
+    margin-left: 348px;
+    color: #000;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 500;
+    /* line-height: 55px; */
+}

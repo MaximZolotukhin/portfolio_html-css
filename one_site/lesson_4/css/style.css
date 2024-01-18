@@ -52,10 +52,38 @@ h1 {
     padding: 10px;
 }
 
-#customers thead {
+#customers .header-table {
     background-color: #dcdcdc;
 }
 
 #customers {
     width: 100%;
+    margin-bottom: 30px;
+}
+
+.users {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.users .header-table {
+    background-color: orangered;
+    color: white;
+    font-weight: normal;
+}
+
+.users th, .users td {
+    border: 1px solid #c0c0c0;
+    padding: 10px;
+    text-align: center;
+}
+
+.line-table {
+    width: 100%;
+}
+
+.line-table th, .line-table td {
+    border-bottom: 1px solid orange;
+    text-align: center;
+    padding: 10px;
 }

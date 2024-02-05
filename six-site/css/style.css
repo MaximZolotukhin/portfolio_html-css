@@ -75,6 +75,10 @@ img {
   vertical-align: top;
 }
 
+address {
+  font-style: unset;
+}
+
 /* ---------------------------------------- ---------------------------------------------- */
 .wrapper {
   width: 600px;
@@ -92,9 +96,9 @@ body {
   line-height: normal;
 }
 
-.wrapper {
+/* .wrapper {
   border: 1px solid black;
-}
+} */
 
 .header {
   margin-top: 40px;
@@ -109,10 +113,12 @@ body {
   margin-top: 60px;
 }
 
-.header p {
+.logo {
+  margin: 0 auto;
   font-size: 36px;
   font-weight: 700;
   margin-top: 60px;
+  text-transform: uppercase;
 }
 
 .img_1 {
@@ -128,7 +134,7 @@ body {
 
   font-size: 19px;
   font-weight: 400;
-  line-height: 24px; /* 126.316% */
+  line-height: 24px;
 }
 
 .try-it-now {
@@ -146,14 +152,13 @@ body {
   font-feature-settings: "clig" off, "liga" off;
   font-size: 14px;
   font-weight: 500;
-  line-height: 16px; /* 114.286% */
+  line-height: 16px;
   letter-spacing: 0.125px;
 }
 
 .visual-block {
   margin: 56px auto 0;
   width: 560px;
-  /* padding: 0 28px; */
 }
 
 .visual-block img {
@@ -173,7 +178,7 @@ body {
   color: #1c1e23;
   font-size: 27px;
   font-weight: 700;
-  line-height: 34px; /* 125.926% */
+  line-height: 34px;
 }
 
 .text-conteiner p {
@@ -181,7 +186,7 @@ body {
   color: #1c1e23;
   font-size: 19px;
   font-weight: 400;
-  line-height: 24px; /* 126.316% */
+  line-height: 24px;
 }
 
 .visual-block__button {
@@ -200,8 +205,6 @@ body {
   margin: 40px auto 0;
   font-weight: 400;
   font-size: 20px;
-  /* line-height: 153.5%; */
-  /* letter-spacing: 0% */
   max-width: 560px;
   border-bottom: 2px solid black;
 }
@@ -213,4 +216,55 @@ body {
 footer {
   max-width: 560px;
   margin: 40px auto 0;
+}
+
+.corp-name {
+  margin: 0 auto;
+  width: 347px;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 142.5%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.social-group {
+  width: 220px;
+  height: 24px;
+  margin: 25px auto;
+  display: block;
+}
+
+.social-group li {
+  display: inline-block;
+  margin-right: 26px;
+}
+
+.social-group li:last-child {
+  margin-right: 0px;
+}
+
+.social-group img {
+  width: 18px;
+  height: 18px;
+}
+
+.addres-group {
+  margin: 0 auto;
+  width: 165px;
+  height: 63px;
+
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 142.5%;
+  text-align: center;
+}
+
+.logo2 {
+  width: 100px;
+  height: 36px;
+  text-align: center;
+  margin-top: 0;
 }

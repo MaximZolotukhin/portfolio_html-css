@@ -86,6 +86,8 @@ address {
 }
 
 body {
+  width: 600px;
+  margin: 0 auto;
   color: #000;
   font-family: "Noto Sans";
   font-style: normal;
@@ -159,6 +161,10 @@ body {
   letter-spacing: 0.125px;
 }
 
+/* article {
+  padding: 0 16px;
+} */
+
 .two-block-all {
   display: flex;
   justify-content: space-around;
@@ -195,4 +201,99 @@ body {
 
 .try-it-now-left {
   margin-left: 0;
+}
+
+.one-block-all {
+  margin-top: 70px;
+  width: 552px;
+  padding: 0 24px;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+}
+
+.one-block-all h2 {
+  margin-top: 16px;
+}
+
+.one-block-all p {
+  margin-top: 8px;
+}
+
+.two-block-all {
+  margin-top: 32px;
+}
+
+.text_buttom {
+  margin: 52px 21px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  font-weight: 400;
+  font-size: 20px;
+  max-width: 552px;
+  border-bottom: 2px solid black;
+}
+
+.text_buttom__down_text {
+  margin: 40px 0;
+}
+
+footer {
+  max-width: 600px;
+  margin: 40px auto 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.corp-name {
+  /* margin: 0 auto; */
+  width: 347px;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 142.5%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.social-group {
+  width: 220px;
+  height: 24px;
+  margin: 25px auto;
+  display: block;
+}
+
+.social-group li {
+  display: inline-block;
+  margin-right: 26px;
+}
+
+.social-group li:last-child {
+  margin-right: 0px;
+}
+
+.social-group img {
+  width: 18px;
+  height: 18px;
+}
+
+.addres-group {
+  margin: 0 auto;
+  width: 165px;
+  height: 63px;
+
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 142.5%;
+  text-align: center;
+}
+
+.logo2 {
+  width: 100px;
+  height: 36px;
+  text-align: center;
+  margin-top: 0;
 }

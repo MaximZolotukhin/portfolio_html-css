@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.site-header img {
+  max-width: 100%;
+}
+
+.site-header h1,
+.site-header h2 {
+  color: #222;
+  font-size: 26px;
+  text-align: center;
+  margin: 30px auto;
+  text-transform: uppercase;
+}
+
+.site-header h2 {
+  font-size: 22px;
+}
+
+.site-header a {
+  color: #3b0b99;
+}
+
+.site-header h2 a {
+  text-decoration: none;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+figure {
+  padding: 30px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+figure img {
+  max-width: 100%;
+  box-shadow: 0 0 10px #c0c0c0;
+}
+
+figcaption {
+  font-style: italic;
+}
+
+p {
+  margin: 20px;
+  line-height: 150%;
+  margin-bottom: 30px;
+}
+
+.container {
+  max-width: 1000px;
+  width: 80%;
+  margin: 0 auto;
+  background: #f1f1f1;
+  padding: 10px;
+}
+
+.bg-orange {
+  background: orange;
+}
+
+.bg-orangered {
+  background: orangered;
+}
+
+.bg-brown {
+  background: brown;
+}
+
+.bg-darkcyan {
+  background: darkcyan;
+}
+
+.bg-dodgerBlue {
+  background: DodgerBlue;
+}
+
+.out-1,
+.out-2,
+.out-3,
+.out-4,
+.out-5,
+.out-6,
+.out-7 {
+  margin: 30px auto;
+}
+
+.block {
+  width: 150px;
+  height: 150px;
+  margin: 1%;
+}
+
+.block-1 {
+  animation-name: block-1;
+  animation-duration: 1s;
+  animation-iteration-count: 3;
+}
+
+@keyframes block-1 {
+  from {
+  }
+  to {
+    background-color: orange;
+    border-radius: 50%;
+  }
+}
+
+.block-2 {
+  animation-name: block-2;
+  animation-duration: 1s;
+}
+
+@keyframes block-2 {
+  from {
+  }
+  50% {
+    width: 100%;
+  }
+  to {
+    width: 150px;
+  }
+}
+
+.out-3 img:hover {
+  background-color: #f1f1f1;
+  animation-name: block-3;
+  animation-duration: 1s;
+}
+
+@keyframes block-3 {
+  from {
+    text-align: center;
+  }
+  to {
+    transform: rotate(360deg);
+    background-color: blue;
+  }
+}
+
+.out-4 {
+  overflow: hidden;
+}
+
+.out-4-inner {
+  margin: 0 auto;
+  width: 60px;
+  border: 1px solid black;
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.out-4-inner span {
+  animation-name: out-4;
+  animation-duration: 3s;
+  position: relative;
+  left: -58px;
+  width: 55px;
+  display: inline-block;
+}
+
+@keyframes out-4 {
+  from {
+  }
+  50% {
+    left: 14px;
+  }
+  to {
+    left: -112px;
+  }
+}
+
+.out-5 {
+  overflow: hidden;
+}
+
+.out-5-inner {
+  margin: 0 auto;
+  width: 130px;
+  border: 1px solid black;
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.out-5-inner img {
+  animation-name: img-5;
+  animation-duration: 2s;
+  position: relative;
+  display: inline-block;
+  animation-iteration-count: infinite;
+}
+
+@keyframes img-5 {
+  from {
+    left: 0px;
+  }
+  50% {
+    left: -130px;
+  }
+  to {
+    left: -260px;
+  }
+}
